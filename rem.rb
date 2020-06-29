@@ -278,6 +278,6 @@ module FreshRem
     end
     
     refine String do
-        using FreshRem
+        include FreshRem
     end
 end
